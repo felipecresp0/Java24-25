@@ -67,6 +67,7 @@ public class ConjugarVerbos {
         b[4]="vosotros";
         b[5]="ellos";
 
+        System.out.println("¿Que verbo quieres conjugar y en que tiempo? (Si quieres presente añade A despues del verbo, si quieres pasado añade P despues del verbo y si quieres futuro añade F despues del verbo)");
 
         String verbo=t.next();
         String conj=t.next();

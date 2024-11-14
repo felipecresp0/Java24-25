@@ -5,7 +5,7 @@ public class ElTelefonoDeMeucci {
     static String fr="";
     static String[] set1 = {"I","II","III","IV","V","VI","VII","VIII","IX","X"};
     public static void main(String[] args) {
-
+        System.out.println("Escribe tu numero de telefono en numero romanos");
         Scanner t = new Scanner(System.in);
         while(t.hasNext()){
             tot = 0;

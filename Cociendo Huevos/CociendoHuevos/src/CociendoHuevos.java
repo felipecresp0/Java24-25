@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class CociendoHuevos{
 
     public static void main(String[] args){
+        System.out.println("Dime cuantos huevos vas a cocer y cuantos huevos caben en la olla");
 
         Scanner s = new Scanner(System.in);
 
@@ -17,7 +18,7 @@ public class CociendoHuevos{
             coccion = 10;
 
             if(huevos <= capacidad && huevos != 0 && capacidad != 0){
-                System.out.println(coccion);
+                System.out.println("Los minutos de coccion son: " + coccion + "min");
             } else if(huevos != 0 && capacidad != 0) {
 
                 do {
